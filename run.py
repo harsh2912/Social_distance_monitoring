@@ -20,7 +20,7 @@ if __name__=='__main__':
     output = cv2.VideoWriter(args.save_path, fourcc, 25.0, (640,480))
     
     while ret:
-        frame = cv2.resize(frame,(640,480))
+#         frame = cv2.resize(frame,(640,480))
         out = model.get_class_outputs(frame)
         box_lst = []
         image = frame
@@ -32,7 +32,7 @@ if __name__=='__main__':
             reference =  box_lst[0][k] 
             lst_points = list(box_lst[0].clone().detach())
             lst_points.pop(k)
-            color = find_color_of_box(reference,lst_points,30)
+            color = find_color_of_box(reference,lst_points,50)
             boxes2color.append([reference,color])
         for h in range(len(boxes2color)):
             ref,col = boxes2color[h]
