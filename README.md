@@ -1,3 +1,3 @@
 # Social_distance_monitoring
 
-<img src="assets/MOT15.gif" width="400"/> 
+<img src="gif/output.gif" width="300"/> 
