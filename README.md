@@ -1,3 +1,3 @@
 # Social_distance_monitoring
 
-![](gif/output.gif){:height="24px" width="48px"}
+<img src="assets/MOT15.gif" width="400"/> 
