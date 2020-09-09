@@ -1,3 +1,3 @@
 # Social_distance_monitoring
 
-![](gif/output.gif)
+![](gif/output.gif|width=100)
